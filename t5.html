@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+</head>
+<body>
+    <form>
+    <label for="name">Name:</label>
+    <br>
+
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <br>
+
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="message">Message:</label>
+    <br>
+    <textarea name="message" id="message" rows="4" cols="30"></textarea>
+    <br><br>
+
+    <label>Gender:</label>
+    <br>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <br>
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <br>
+    <input type="radio" id="other" name="gender" value="other"> Other
+    <br>
+
+    <label>Skills:</label>
+    <br>
+    <input type="checkbox" name="skill" value="html"> HTML
+    <br>
+    <input type="checkbox" name="skill" value="css"> CSS
+    <br>
+    <input type="checkbox" name="skill" value="js"> JavaScript
+    <br><br>
+    
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
+
+<!--<!-- 
+TASK 5 – CONTACT FORM SUMMARY
+
+✔ <form> – Groups all input fields to collect and submit data.
+
+✔ <label> – Adds a description to each input (for accessibility and click-to-focus).
+
+✔ <input type="text"> – For name (single-line text input).
+
+✔ <input type="email"> – For email (validates email format).
+
+✔ <textarea rows="" cols=""> – For multi-line message input.
+   • rows = height (in lines)
+   • cols = width (in characters)
+
+✔ <input type="radio"> – For gender (select one option only).
+   • All radio buttons share the same name.
+   • Each has a unique value and id.
+
+✔ <input type="checkbox"> – For skills (select multiple options).
+   • Each checkbox has its own value.
+
+✔ <input type="submit"> – Button to submit the form.
+
+Purpose: To collect user info (name, email, message, gender, skills) in a clear and accessible way.
+-->
